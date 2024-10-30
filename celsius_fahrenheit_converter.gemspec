@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
 
   spec.summary = "Celsius Fahrenheit Converter"
   spec.description = "Celsius Fahrenheit Converter"
-  spec.homepage = 'https://github.com/ducmanh2111/celsius_fahrenheit_converter.git'
+  spec.homepage = "https://github.com/ducmanh2111/celsius_fahrenheit_converter.git"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.0.0"
 

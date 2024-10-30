@@ -2,6 +2,8 @@
 
 require_relative "celsius_fahrenheit_converter/version"
 
+# The CelsiusFahrenheitConverter module provides methods to convert temperatures
+# between Celsius and Fahrenheit.
 module CelsiusFahrenheitConverter
   class Error < StandardError; end
 

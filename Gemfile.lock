@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    celsius_fahrenheit_converter (0.1.0)
+    celsius_fahrenheit_converter (0.2.0)
 
 GEM
   remote: https://rubygems.org/
