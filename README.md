@@ -1,14 +1,18 @@
-# CelsiusFahrenheitConverter
+# Celsius Fahrenheit Converter
 
-The very first Ruby Gem for education
+
 
 ## Installation
 
-Install the gem and add to the application's Gemfile by executing:
+Add this line to your application's Gemfile:
 
-```bash
-bundle add celsius_fahrenheit_converter
+```ruby
+gem 'celsius_fahrenheit_converter'
 ```
+
+And then execute
+
+    $ bundle install
 
 If bundler is not being used to manage dependencies, install the gem by executing:
 
@@ -17,8 +21,11 @@ gem install celsius_fahrenheit_converter
 ```
 
 ## Usage
+Include this module to your class which you want to extent
 
-TODO: Write usage instructions here
+```ruby
+include CelsiusFahrenheitConverter
+```
 
 ## Development
 
