@@ -16,9 +16,9 @@ And then execute
 
 If bundler is not being used to manage dependencies, install the gem by executing:
 
-```bash
-gem install celsius_fahrenheit_converter
-```
+
+    $ gem install celsius_fahrenheit_converter
+
 
 ## Usage
 Include this module to your class which you want to extent
