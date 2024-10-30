@@ -12,7 +12,7 @@ module CelsiusFahrenheitConverter
   # @example
   #   CelsiusFahrenheitConverter.to_celsius(32) # => 0.0
   #   CelsiusFahrenheitConverter.to_celsius(212) # => 100.0
-  def self.to_celsius(fahrenheit_degree)
+  def to_celsius(fahrenheit_degree)
     result = (fahrenheit_degree.to_f - 32) / (9.to_f / 5)
     puts result
     result
@@ -25,7 +25,7 @@ module CelsiusFahrenheitConverter
   # @example
   #   CelsiusFahrenheitConverter.to_fahrenheit(0) # => 32.0
   #   CelsiusFahrenheitConverter.to_fahrenheit(100) # => 212.0
-  def self.to_fahrenheit(celsius_degree)
+  def to_fahrenheit(celsius_degree)
     result = celsius_degree.to_f * 9 / 5 + 32
     puts result
     result
